@@ -1,10 +1,15 @@
-import { useState } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-const Header = () => {
+type HeaderProps = {
+  language: string;
+  setLanguage: React.Dispatch<React.SetStateAction<string>>;
+};
+
+const Header: React.FC<HeaderProps> = ({ setLanguage }) => {
     const { t, i18n } = useTranslation();
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
+    const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+    const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = React.useState(false);
 
     const languages = [
         { code: 'en', name: 'English' },
@@ -16,6 +21,7 @@ const Header = () => {
 
     const handleLanguageChange = (code: string) => {
         i18n.changeLanguage(code);
+        setLanguage(code); // <== importante aqui
         setIsLanguageDropdownOpen(false);
     };
 
