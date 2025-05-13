@@ -168,13 +168,6 @@
     background-color: transparent;
 }
 
-.btn-primary {
-    padding: 4px 12px;
-    background-color: #3b82f6;
-    border-radius: 4px;
-    font-size: 12px;
-}
-
 /* Main Content */
 .main-content {
     flex: 1;
