@@ -176,6 +176,7 @@ body {
   display: flex;
   align-items: center;
   cursor: pointer;
+  color: black;
 }
 
 .language-dropdown {

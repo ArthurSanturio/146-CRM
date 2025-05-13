@@ -1,20 +1,20 @@
 "use client"
 
 import type React from "react"
-
+import { useTranslation } from "react-i18next"
 import { useState } from "react"
 import "../../Styles/HomePage.css"
 
 export default function Dashboard() {
+    const { t } = useTranslation()
     const [showModal, setShowModal] = useState(false)
     const [newProfile, setNewProfile] = useState({
-        name: '',
-        group: '',
-        proxy: '',
-        platform: 'Chrome',
-        siteLink: '', // novo campo
-    });
-
+        name: "",
+        group: "",
+        proxy: "",
+        platform: "Chrome",
+        siteLink: "",
+    })
 
     const [profiles, setProfiles] = useState<any[]>([])
 
@@ -46,7 +46,7 @@ export default function Dashboard() {
             group: "",
             proxy: "",
             platform: "Chrome",
-            siteLink: "", // Limpa o campo de link do site
+            siteLink: "",
         })
         setShowModal(false)
     }
@@ -66,7 +66,7 @@ export default function Dashboard() {
                 {/* New Profile Button */}
                 <div className="new-profile-container">
                     <button className="new-profile-button" onClick={handleOpenModal}>
-                        Novo perfil
+                        {t("newProfile")}
                         <span className="add-icon">⊕</span>
                     </button>
                 </div>
@@ -82,7 +82,7 @@ export default function Dashboard() {
                                     <line x1="12" y1="17" x2="12" y2="21" />
                                 </svg>
                             </span>
-                            <span className="nav-text">Perfis</span>
+                            <span className="nav-text">{t("profiles")}</span>
                         </div>
 
                         <div className="nav-item">
@@ -91,7 +91,7 @@ export default function Dashboard() {
                                     <path d="M3 6h18M3 12h18M3 18h18" />
                                 </svg>
                             </span>
-                            <span className="nav-text">Grupos</span>
+                            <span className="nav-text">{t("groups")}</span>
                         </div>
 
                         <div className="nav-item">
@@ -100,7 +100,7 @@ export default function Dashboard() {
                                     <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
                                 </svg>
                             </span>
-                            <span className="nav-text">Proxies</span>
+                            <span className="nav-text">{t("proxies")}</span>
                         </div>
 
                         <div className="nav-item">
@@ -111,7 +111,7 @@ export default function Dashboard() {
                                     <path d="M8 20h8" />
                                 </svg>
                             </span>
-                            <span className="nav-text">Extensões</span>
+                            <span className="nav-text">{t("extensions")}</span>
                         </div>
 
                         <div className="nav-item">
@@ -121,13 +121,13 @@ export default function Dashboard() {
                                     <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
                                 </svg>
                             </span>
-                            <span className="nav-text">Lixeira</span>
+                            <span className="nav-text">{t("trash")}</span>
                         </div>
                     </div>
 
                     <div className="nav-section automation-section">
                         <div className="section-header">
-                            <span>Automação</span>
+                            <span>{t("automation")}</span>
                             <span className="dropdown-icon">
                                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                                     <polyline points="6 9 12 15 18 9" />
@@ -144,7 +144,7 @@ export default function Dashboard() {
                                     <line x1="6" y1="18" x2="6" y2="18" />
                                 </svg>
                             </span>
-                            <span className="nav-text">Sincronizador</span>
+                            <span className="nav-text">{t("synchronizer")}</span>
                         </div>
 
                         <div className="nav-item">
@@ -155,7 +155,7 @@ export default function Dashboard() {
                                     <line x1="12" y1="17" x2="12" y2="21" />
                                 </svg>
                             </span>
-                            <span className="nav-text">RPA</span>
+                            <span className="nav-text">{t("rpa")}</span>
                             <span className="dropdown-icon ml-auto">
                                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                                     <polyline points="6 9 12 15 18 9" />
@@ -170,7 +170,7 @@ export default function Dashboard() {
                                     <circle cx="12" cy="7" r="4" />
                                 </svg>
                             </span>
-                            <span className="nav-text">API</span>
+                            <span className="nav-text">{t("api")}</span>
                         </div>
                     </div>
                 </nav>
@@ -178,15 +178,13 @@ export default function Dashboard() {
                 {/* Premium Banner */}
                 <div className="premium-banner">
                     <div className="premium-header">
-                        <span className="premium-title">Obtenha mais recursos</span>
+                        <span className="premium-title">{t("getMoreFeatures")}</span>
                         <span className="premium-icon">🔆</span>
                     </div>
-                    <p className="premium-description">
-                        Sincronização de dados entre dispositivos, colaboração em equipe e outros recursos avançados.
-                    </p>
+                    <p className="premium-description">{t("premiumDescription")}</p>
                     <div className="premium-actions">
-                        <button className="btn-outline">Try Free</button>
-                        <button className="btn-primary">atualizar</button>
+                        <button className="btn-outline">{t("tryFree")}</button>
+                        <button className="btn-primary">{t("upgrade")}</button>
                     </div>
                 </div>
             </div>
@@ -196,7 +194,7 @@ export default function Dashboard() {
                 {/* Header */}
                 <header className="main-header">
                     <div className="header-title">
-                        <h2>Perfis</h2>
+                        <h2>{t("profiles")}</h2>
                     </div>
                     <div className="header-actions">
                         <div className="notification-icon orange">
@@ -217,7 +215,7 @@ export default function Dashboard() {
                                 <polyline points="7 10 12 15 17 10" />
                                 <line x1="12" y1="15" x2="12" y2="3" />
                             </svg>
-                            Baixar cliente
+                            {t("downloadClient")}
                         </button>
                         <button className="menu-button">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -240,12 +238,10 @@ export default function Dashboard() {
                 <div className="warning-alert">
                     <div className="alert-content">
                         <span className="alert-icon">⚠</span>
-                        <span className="alert-message">
-                            Você não configurou uma senha. Configure-o em "Configurações" o mais rápido possível.
-                        </span>
+                        <span className="alert-message">{t("passwordWarning")}</span>
                     </div>
                     <div className="alert-actions">
-                        <button className="btn-warning">Definir senha</button>
+                        <button className="btn-warning">{t("setPassword")}</button>
                         <span className="alert-pagination">1/2</span>
                         <span className="dropdown-icon">
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -259,7 +255,7 @@ export default function Dashboard() {
                 <div className="toolbar">
                     <div className="search-container">
                         <div className="group-filter">
-                            <span>Todos os grupos</span>
+                            <span>{t("allGroups")}</span>
                             <span className="dropdown-icon">
                                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                                     <polyline points="6 9 12 15 18 9" />
@@ -273,7 +269,7 @@ export default function Dashboard() {
                                     <line x1="21" y1="21" x2="16.65" y2="16.65" />
                                 </svg>
                             </span>
-                            <input type="text" className="search-input" placeholder="Pesquisa ou novos critérios de pesquisa" />
+                            <input type="text" className="search-input" placeholder={t("searchPlaceholder")} />
                             <button className="filter-button">
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                                     <path d="M4 6h16M4 12h16M4 18h16" />
@@ -291,7 +287,7 @@ export default function Dashboard() {
                             <line x1="8" y1="21" x2="16" y2="21" />
                             <line x1="12" y1="17" x2="12" y2="21" />
                         </svg>
-                        Abrir
+                        {t("open")}
                     </button>
                     <button className="action-btn">
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -347,11 +343,11 @@ export default function Dashboard() {
                     <table className="profiles-table">
                         <thead>
                             <tr>
-                                <th>Nome</th>
-                                <th>Grupo</th>
-                                <th>Proxy</th>
-                                <th>Link</th>
-                                <th>Plataforma</th>
+                                <th>{t("name")}</th>
+                                <th>{t("group")}</th>
+                                <th>{t("proxy")}</th>
+                                <th>{t("link")}</th>
+                                <th>{t("platform")}</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -366,7 +362,7 @@ export default function Dashboard() {
                                                 {profile.siteLink}
                                             </a>
                                         ) : (
-                                            '—'
+                                            "—"
                                         )}
                                     </td>
                                     <td>{profile.platform}</td>
@@ -375,7 +371,6 @@ export default function Dashboard() {
                         </tbody>
                     </table>
                 </div>
-
 
                 {/* Footer */}
                 <footer className="main-footer">
@@ -391,7 +386,7 @@ export default function Dashboard() {
                 <div className="modal-overlay">
                     <div className="modal-container">
                         <div className="modal-header">
-                            <h3>Criar Novo Perfil</h3>
+                            <h3>{t("createNewProfile")}</h3>
                             <button className="modal-close" onClick={handleCloseModal}>
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                                     <line x1="18" y1="6" x2="6" y2="18" />
@@ -402,7 +397,7 @@ export default function Dashboard() {
                         <form onSubmit={handleSubmit}>
                             <div className="modal-body">
                                 <div className="form-group">
-                                    <label htmlFor="name">Nome do Perfil</label>
+                                    <label htmlFor="name">{t("profileName")}</label>
                                     <input
                                         type="text"
                                         id="name"
@@ -411,12 +406,12 @@ export default function Dashboard() {
                                         onChange={handleInputChange}
                                         required
                                         className="form-input"
-                                        placeholder="Digite o nome do perfil"
+                                        placeholder={t("enterProfileName")}
                                     />
                                 </div>
 
                                 <div className="form-group">
-                                    <label htmlFor="group">Grupo</label>
+                                    <label htmlFor="group">{t("group")}</label>
                                     <select
                                         id="group"
                                         name="group"
@@ -424,15 +419,15 @@ export default function Dashboard() {
                                         onChange={handleInputChange}
                                         className="form-select"
                                     >
-                                        <option value="">Selecione um grupo</option>
-                                        <option value="Trabalho">Trabalho</option>
-                                        <option value="Pessoal">Pessoal</option>
-                                        <option value="Marketing">Marketing</option>
+                                        <option value="">{t("selectGroup")}</option>
+                                        <option value="Trabalho">{t("work")}</option>
+                                        <option value="Pessoal">{t("personal")}</option>
+                                        <option value="Marketing">{t("marketing")}</option>
                                     </select>
                                 </div>
 
                                 <div className="form-group">
-                                    <label htmlFor="proxy">Proxy (opcional)</label>
+                                    <label htmlFor="proxy">{t("proxyOptional")}</label>
                                     <input
                                         type="text"
                                         id="proxy"
@@ -440,12 +435,12 @@ export default function Dashboard() {
                                         value={newProfile.proxy}
                                         onChange={handleInputChange}
                                         className="form-input"
-                                        placeholder="IP:Porta ou deixe em branco"
+                                        placeholder={t("proxyPlaceholder")}
                                     />
                                 </div>
 
                                 <div className="form-group">
-                                    <label htmlFor="siteLink">Link do site</label>
+                                    <label htmlFor="siteLink">{t("siteLink")}</label>
                                     <input
                                         type="url"
                                         id="siteLink"
@@ -453,13 +448,12 @@ export default function Dashboard() {
                                         value={newProfile.siteLink}
                                         onChange={handleInputChange}
                                         className="form-input"
-                                        placeholder="https://exemplo.com"
+                                        placeholder={t("siteLinkPlaceholder")}
                                     />
                                 </div>
 
-
                                 <div className="form-group">
-                                    <label htmlFor="platform">Plataforma</label>
+                                    <label htmlFor="platform">{t("platform")}</label>
                                     <select
                                         id="platform"
                                         name="platform"
@@ -477,10 +471,10 @@ export default function Dashboard() {
 
                             <div className="modal-footer">
                                 <button type="button" className="btn-cancel" onClick={handleCloseModal}>
-                                    Cancelar
+                                    {t("cancel")}
                                 </button>
                                 <button type="submit" className="btn-submit">
-                                    Criar Perfil
+                                    {t("createProfile")}
                                 </button>
                             </div>
                         </form>

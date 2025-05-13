@@ -3,14 +3,14 @@ const Features = () => {
         {
             id: 1,
             icon: "🛡️",
-            title: "Navegador Antidetección",
-            description: "Cree y administre múltiples perfiles de navegador con huellas dactilares únicas para evitar la detección."
+            title: "Navegador anti-detecção",
+            description: "Crie e gerencie vários perfis de navegador com impressões digitais exclusivas para evitar detecção."
         },
         {
             id: 2,
             icon: "🚀",
             title: "Colaboração em Equipe",
-            description: "Comparta de forma segura los perfiles del navegador con su equipo y administre los permisos de acceso."
+            description: "Compartilhe perfis de navegador com segurança com sua equipe e gerencie permissões de acesso."
         },
         {
             id: 3,
