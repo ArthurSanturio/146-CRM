@@ -1,0 +1,235 @@
+{
+	"newProfile": "New profile",
+	"profiles": "Profiles",
+	"groups": "Groups",
+	"proxies": "Proxies",
+	"extensions": "Extensions",
+	"trash": "Trash",
+	"automation": "Automation",
+	"synchronizer": "Synchronizer",
+	"rpa": "RPA",
+	"api": "API",
+	"getMoreFeatures": "Get more features",
+	"premiumDescription": "Data synchronization between devices, team collaboration and other advanced features.",
+	"tryFree": "Try Free",
+	"upgrade": "Upgrade",
+	"downloadClient": "Download client",
+	"features": "Features",
+	"pricing": "Pricing",
+	"faq": "FAQ",
+	"blog": "Blog",
+	"contact": "Contact",
+	"login": "Login",
+	"register": "Register",
+	"loginPage": {
+		"title": "Sign in to your account",
+		"description": "Enter your details to access the system",
+		"email": "Email",
+		"emailPlaceholder": "Your email",
+		"password": "Password",
+		"passwordPlaceholder": "Your password",
+		"forgotPassword": "Forgot password?",
+		"rememberMe": "Keep me signed in",
+		"submit": "Sign in",
+		"noAccount": "Don't have an account?",
+		"register": "Register",
+		"trustMessage": "Your data is safe with us",
+		"errors": {
+			"fillAllFields": "Please fill in all fields.",
+			"invalidCredentials": "Invalid email or password.",
+			"genericError": "An error occurred while signing in."
+		}
+	},
+	"registerPage": {
+		"title": "Create an account",
+		"description": "Fill in your details to register",
+		"firstName": "First Name",
+		"firstNamePlaceholder": "Your first name",
+		"lastName": "Last Name",
+		"lastNamePlaceholder": "Your last name",
+		"email": "Email",
+		"emailPlaceholder": "Your email",
+		"password": "Password",
+		"passwordPlaceholder": "Create a password",
+		"confirmPassword": "Confirm Password",
+		"confirmPasswordPlaceholder": "Confirm your password",
+		"agreeToTerms": "I agree to the",
+		"termsOfService": "Terms of Service",
+		"and": "and the",
+		"privacyPolicy": "Privacy Policy",
+		"submit": "Create Account",
+		"haveAccount": "Already have an account?",
+		"login": "Sign in",
+		"trustMessage": "Your data is safe with us",
+		"errors": {
+			"fillAllFields": "Please fill in all fields.",
+			"passwordsDoNotMatch": "Passwords do not match.",
+			"agreeToTerms": "You must agree to the terms and conditions.",
+			"emailInUse": "This email is already in use.",
+			"genericError": "Error registering. Please try again."
+		}
+	},
+	"companyName": "146 CRM",
+	"allRightsReserved": "All rights reserved",
+	"home": "Home",
+	"passwordWarning": "You have not set up a password. Set it up in \"Settings\" as soon as possible.",
+	"setPassword": "Set password",
+	"allGroups": "All groups",
+	"searchPlaceholder": "Search or new search criteria",
+	"open": "Open",
+	"name": "Name",
+	"group": "Group",
+	"proxy": "Proxy",
+	"link": "Link",
+	"platform": "Platform",
+	"createNewProfile": "Create New Profile",
+	"profileName": "Profile Name",
+	"enterProfileName": "Enter profile name",
+	"selectGroup": "Select a group",
+	"work": "Work",
+	"personal": "Personal",
+	"marketing": "Marketing",
+	"proxyOptional": "Proxy (optional)",
+	"proxyPlaceholder": "IP:Port or leave blank",
+	"siteLink": "Site link",
+	"siteLinkPlaceholder": "https://example.com",
+	"cancel": "Cancel",
+	"createProfile": "Create Profile",
+	"pageNotFound": "Page not found",
+	"pageNotFoundDescription": "The page you are looking for does not exist.",
+	"hero": {
+		"title": "The Most Advanced Browser Fingerprint Protection Solution",
+		"subtitle": "Manage unlimited browser profiles with unique fingerprints to automate your workflow and avoid detection issues.",
+		"downloadNow": "Download Now",
+		"learnMore": "Learn More",
+		"trustedBy": "Trusted by over 1,000,000 users worldwide"
+	},
+	"featuresSection": {
+		"sectionTitle": "Powerful Features",
+		"sectionSubtitle": "All the tools you need to manage your browser profiles with maximum privacy and efficiency",
+		"antiDetection": {
+			"title": "Anti-Detection Browser",
+			"description": "Create and manage multiple browser profiles with unique fingerprints to avoid detection."
+		},
+		"teamCollaboration": {
+			"title": "Team Collaboration",
+			"description": "Securely share browser profiles with your team and manage access permissions."
+		},
+		"automation": {
+			"title": "Browser Automation",
+			"description": "Automate repetitive tasks with our powerful automation tools and API."
+		},
+		"proxyIntegration": {
+			"title": "Proxy Integration",
+			"description": "Easily integrate with your existing proxies or purchase proxies directly through our platform."
+		},
+		"mobileSimulation": {
+			"title": "Mobile Device Simulation",
+			"description": "Simulate mobile devices with accurate fingerprints for mobile testing and automation."
+		},
+		"cookies": {
+			"title": "Cookies & Local Storage",
+			"description": "Securely store and manage cookies and local storage data across multiple profiles."
+		}
+	},
+	"testimonials": {
+		"sectionTitle": "What Our Clients Say",
+		"sectionSubtitle": "Thousands of professionals and companies trust AdsPower to protect their online identity",
+		"testimonial1": {
+			"text": "AdsPower has completely transformed how we manage our marketing campaigns. The anti-detect browser has saved us countless hours and increased our conversion rates by 40%.",
+			"name": "Sarah Johnson",
+			"role": "Digital Marketing Manager"
+		},
+		"testimonial2": {
+			"text": "As an e-commerce business owner, I need reliable tools to manage multiple accounts. AdsPower is the most robust solution I've found, with excellent customer support.",
+			"name": "Michael Chen",
+			"role": "E-commerce Entrepreneur"
+		},
+		"testimonial3": {
+			"text": "The team collaboration features have been a game-changer for our agency. We can easily share profiles and securely manage client accounts without any hassle.",
+			"name": "Jessica Rodriguez",
+			"role": "Agency Owner"
+		}
+	},
+	"pricingSection": {
+		"sectionTitle": "Simple and Transparent Pricing",
+		"sectionSubtitle": "Choose the plan that meets your needs. All plans come with a 14-day free trial.",
+		"billing": {
+			"monthly": "Monthly",
+			"yearly": "Yearly (Save 20%)",
+			"perMonth": "month",
+			"perYear": "year"
+		},
+		"popularBadge": "Most Popular",
+		"startNow": "Start Now",
+		"plans": {
+			"individual": {
+				"name": "Individual",
+				"features": {
+					"profiles": "5 browser profiles",
+					"basicProtection": "Basic fingerprint protection",
+					"cookieManagement": "Cookie management",
+					"basicProxy": "Basic proxy support",
+					"emailSupport": "Email support"
+				}
+			},
+			"team": {
+				"name": "Team",
+				"features": {
+					"profiles": "20 browser profiles",
+					"advancedProtection": "Advanced fingerprint protection",
+					"teamCollaboration": "Team collaboration",
+					"apiAccess": "API access",
+					"customProxy": "Custom proxy support",
+					"priorityEmail": "Priority email support",
+					"automationTools": "Automation tools"
+				}
+			},
+			"enterprise": {
+				"name": "Enterprise",
+				"features": {
+					"profiles": "Unlimited browser profiles",
+					"premiumProtection": "Premium fingerprint protection",
+					"advancedTeam": "Advanced team management",
+					"fullApi": "Full API access",
+					"advancedAutomation": "Advanced automation",
+					"customIntegrations": "Custom integrations",
+					"priority247": "24/7 priority support",
+					"dedicatedManager": "Dedicated account manager"
+				}
+			}
+		}
+	},
+	"products": "Products",
+	"productA": "Product A",
+	"productB": "Product B",
+	"productC": "Product C",
+	"groupsPage": {
+		"group": "Group",
+		"includedProfiles": "Included Profiles",
+		"observation": "Observation",
+		"creationTime": "Creation Time",
+		"creator": "Creator",
+		"operation": "Operation",
+		"refresh": "Refresh"
+	},
+	"profilesPage": {
+		"search": "Search...",
+		"open": "Open",
+		"rpa": "RPA",
+		"collapse": "Collapse",
+		"export": "Export",
+		"move": "Move",
+		"share": "Share",
+		"delete": "Delete",
+		"createProfiles": "Create 8 Profiles",
+		"creating": "Creating...",
+		"name": "Name",
+		"tags": "Tags",
+		"status": "Status",
+		"creationDate": "Creation Date",
+		"action": "Action",
+		"active": "ACTIVE",
+		"botLogin": "Login with Bot"
+	}
+}

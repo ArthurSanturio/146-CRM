@@ -1,0 +1,235 @@
+{
+	"newProfile": "新配置文件",
+	"profiles": "配置文件",
+	"groups": "群组",
+	"proxies": "代理",
+	"extensions": "扩展",
+	"trash": "回收站",
+	"automation": "自动化",
+	"synchronizer": "同步器",
+	"rpa": "RPA",
+	"api": "API",
+	"getMoreFeatures": "获取更多功能",
+	"premiumDescription": "设备之间的数据同步、团队协作和其他高级功能。",
+	"tryFree": "免费试用",
+	"upgrade": "升级",
+	"downloadClient": "下载客户端",
+	"features": "功能",
+	"pricing": "价格",
+	"faq": "常见问题",
+	"blog": "博客",
+	"contact": "联系我们",
+	"login": "登录",
+	"register": "注册",
+	"loginPage": {
+		"title": "登录您的账户",
+		"description": "输入您的详细信息以访问系统",
+		"email": "电子邮件",
+		"emailPlaceholder": "您的电子邮件",
+		"password": "密码",
+		"passwordPlaceholder": "您的密码",
+		"forgotPassword": "忘记密码？",
+		"rememberMe": "保持登录状态",
+		"submit": "登录",
+		"noAccount": "没有账户？",
+		"register": "注册",
+		"trustMessage": "您的数据在我们这里很安全",
+		"errors": {
+			"fillAllFields": "请填写所有字段。",
+			"invalidCredentials": "电子邮件或密码不正确。",
+			"genericError": "登录时发生错误。"
+		}
+	},
+	"registerPage": {
+		"title": "创建账户",
+		"description": "填写您的详细信息以注册",
+		"firstName": "名字",
+		"firstNamePlaceholder": "您的名字",
+		"lastName": "姓氏",
+		"lastNamePlaceholder": "您的姓氏",
+		"email": "电子邮件",
+		"emailPlaceholder": "您的电子邮件",
+		"password": "密码",
+		"passwordPlaceholder": "创建密码",
+		"confirmPassword": "确认密码",
+		"confirmPasswordPlaceholder": "确认您的密码",
+		"agreeToTerms": "我同意",
+		"termsOfService": "服务条款",
+		"and": "和",
+		"privacyPolicy": "隐私政策",
+		"submit": "创建账户",
+		"haveAccount": "已有账户？",
+		"login": "登录",
+		"trustMessage": "您的数据在我们这里很安全",
+		"errors": {
+			"fillAllFields": "请填写所有字段。",
+			"passwordsDoNotMatch": "密码不匹配。",
+			"agreeToTerms": "您必须同意条款和条件。",
+			"emailInUse": "此电子邮件已被使用。",
+			"genericError": "注册时出错。请重试。"
+		}
+	},
+	"companyName": "146 CRM",
+	"allRightsReserved": "版权所有",
+	"home": "首页",
+	"passwordWarning": "您尚未设置密码。请尽快在\"设置\"中设置。",
+	"setPassword": "设置密码",
+	"allGroups": "所有组",
+	"searchPlaceholder": "搜索或新的搜索条件",
+	"open": "打开",
+	"name": "名称",
+	"group": "组",
+	"proxy": "代理",
+	"link": "链接",
+	"platform": "平台",
+	"createNewProfile": "创建新配置文件",
+	"profileName": "配置文件名称",
+	"enterProfileName": "输入配置文件名称",
+	"selectGroup": "选择一个组",
+	"work": "工作",
+	"personal": "个人",
+	"marketing": "营销",
+	"proxyOptional": "代理（可选）",
+	"proxyPlaceholder": "IP:端口或留空",
+	"siteLink": "网站链接",
+	"siteLinkPlaceholder": "https://example.com",
+	"cancel": "取消",
+	"createProfile": "创建配置文件",
+	"pageNotFound": "页面未找到",
+	"pageNotFoundDescription": "您正在寻找的页面不存在。",
+	"hero": {
+		"title": "最先进的浏览器指纹保护解决方案",
+		"subtitle": "管理具有独特指纹的无限浏览器配置文件，以自动化您的工作流程并避免检测问题。",
+		"downloadNow": "立即下载",
+		"learnMore": "了解更多",
+		"trustedBy": "全球超过1,000,000用户信赖"
+	},
+	"featuresSection": {
+		"sectionTitle": "强大功能",
+		"sectionSubtitle": "管理浏览器配置文件所需的所有工具，具有最大的隐私和效率",
+		"antiDetection": {
+			"title": "反检测浏览器",
+			"description": "创建和管理具有独特指纹的多个浏览器配置文件，以避免检测。"
+		},
+		"teamCollaboration": {
+			"title": "团队协作",
+			"description": "安全地与您的团队共享浏览器配置文件并管理访问权限。"
+		},
+		"automation": {
+			"title": "浏览器自动化",
+			"description": "使用我们强大的自动化工具和API自动化重复任务。"
+		},
+		"proxyIntegration": {
+			"title": "代理集成",
+			"description": "轻松与您现有的代理集成或直接通过我们的平台购买代理。"
+		},
+		"mobileSimulation": {
+			"title": "移动设备模拟",
+			"description": "使用精确的指纹模拟移动设备，用于移动测试和自动化。"
+		},
+		"cookies": {
+			"title": "Cookie和本地存储",
+			"description": "在多个配置文件中安全地存储和管理Cookie和本地存储数据。"
+		}
+	},
+	"testimonials": {
+		"sectionTitle": "客户评价",
+		"sectionSubtitle": "数千名专业人士和公司信任AdsPower来保护他们的在线身份",
+		"testimonial1": {
+			"text": "AdsPower完全改变了我们管理营销活动的方式。反检测浏览器为我们节省了无数时间，并将我们的转化率提高了40%。",
+			"name": "Sarah Johnson",
+			"role": "数字营销经理"
+		},
+		"testimonial2": {
+			"text": "作为电子商务企业主，我需要可靠的工具来管理多个账户。AdsPower是我找到的最强大的解决方案，客户支持非常出色。",
+			"name": "Michael Chen",
+			"role": "电子商务企业家"
+		},
+		"testimonial3": {
+			"text": "团队协作功能对我们机构来说是一个改变游戏规则的功能。我们可以轻松共享配置文件并安全地管理客户账户，没有任何麻烦。",
+			"name": "Jessica Rodriguez",
+			"role": "机构所有者"
+		}
+	},
+	"pricingSection": {
+		"sectionTitle": "简单透明的价格",
+		"sectionSubtitle": "选择适合您需求的计划。所有计划都提供14天免费试用。",
+		"billing": {
+			"monthly": "月付",
+			"yearly": "年付（节省20%）",
+			"perMonth": "月",
+			"perYear": "年"
+		},
+		"popularBadge": "最受欢迎",
+		"startNow": "立即开始",
+		"plans": {
+			"individual": {
+				"name": "个人版",
+				"features": {
+					"profiles": "5个浏览器配置文件",
+					"basicProtection": "基本指纹保护",
+					"cookieManagement": "Cookie管理",
+					"basicProxy": "基本代理支持",
+					"emailSupport": "邮件支持"
+				}
+			},
+			"team": {
+				"name": "团队版",
+				"features": {
+					"profiles": "20个浏览器配置文件",
+					"advancedProtection": "高级指纹保护",
+					"teamCollaboration": "团队协作",
+					"apiAccess": "API访问",
+					"customProxy": "自定义代理支持",
+					"priorityEmail": "优先邮件支持",
+					"automationTools": "自动化工具"
+				}
+			},
+			"enterprise": {
+				"name": "企业版",
+				"features": {
+					"profiles": "无限浏览器配置文件",
+					"premiumProtection": "高级指纹保护",
+					"advancedTeam": "高级团队管理",
+					"fullApi": "完整API访问",
+					"advancedAutomation": "高级自动化",
+					"customIntegrations": "自定义集成",
+					"priority247": "24/7优先支持",
+					"dedicatedManager": "专属客户经理"
+				}
+			}
+		}
+	},
+	"products": "产品",
+	"productA": "产品A",
+	"productB": "产品B",
+	"productC": "产品C",
+	"groupsPage": {
+		"group": "群组",
+		"includedProfiles": "包含的配置文件",
+		"observation": "观察",
+		"creationTime": "创建时间",
+		"creator": "创建者",
+		"operation": "操作",
+		"refresh": "刷新"
+	},
+	"profilesPage": {
+		"search": "搜索...",
+		"open": "打开",
+		"rpa": "RPA",
+		"collapse": "折叠",
+		"export": "导出",
+		"move": "移动",
+		"share": "分享",
+		"delete": "删除",
+		"createProfiles": "创建8个配置文件",
+		"creating": "创建中...",
+		"name": "名称",
+		"tags": "标签",
+		"status": "状态",
+		"creationDate": "创建日期",
+		"action": "操作",
+		"active": "活跃",
+		"botLogin": "机器人登录"
+	}
+}

@@ -1,19 +1,25 @@
-import '../../App.css'
+import { useTranslation } from "react-i18next";
+import "../../App.css";
 
 function Footer() {
-    return (
-        <footer className="footer">
-            <div className="footer-content">
-                <p>&copy; {new Date().getFullYear()} Sua Empresa. Todos os direitos reservados.</p>
-                <nav className="footer-nav">
-                    <a href="#hero">Início</a>
-                    <a href="#features">Recursos</a>
-                    <a href="#testimonials">Depoimentos</a>
-                    <a href="#pricing">Preços</a>
-                </nav>
-            </div>
-        </footer>
-    );
+	const { t } = useTranslation();
+
+	return (
+		<footer className="footer">
+			<div className="footer-content">
+				<p>
+					&copy; {new Date().getFullYear()} {t("companyName")}.{" "}
+					{t("allRightsReserved")}
+				</p>
+				<nav className="footer-nav">
+					<a href="#hero">{t("home")}</a>
+					<a href="#features">{t("features")}</a>
+					<a href="#testimonials">{t("testimonials")}</a>
+					<a href="#pricing">{t("pricing")}</a>
+				</nav>
+			</div>
+		</footer>
+	);
 }
 
 export default Footer;

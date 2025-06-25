@@ -1,6 +1,238 @@
 {
-    "welcome": "Bienvenido al CRM",
-    "login": "Iniciar sesión",
-    "logout": "Cerrar sesión",
-    "dashboard": "Panel de control"
+	"welcome": "Bienvenido al CRM",
+	"login": "Iniciar sesión",
+	"logout": "Cerrar sesión",
+	"dashboard": "Panel de control",
+	"newProfile": "Nuevo perfil",
+	"profiles": "Perfiles",
+	"groups": "Grupos",
+	"proxies": "Proxies",
+	"extensions": "Extensiones",
+	"trash": "Papelera",
+	"automation": "Automatización",
+	"synchronizer": "Sincronizador",
+	"rpa": "RPA",
+	"api": "API",
+	"getMoreFeatures": "Obtén más funciones",
+	"premiumDescription": "Sincronización de datos entre dispositivos, colaboración en equipo y otras funciones avanzadas.",
+	"tryFree": "Prueba Gratis",
+	"upgrade": "Actualizar",
+	"downloadClient": "Descargar cliente",
+	"features": "Características",
+	"pricing": "Precios",
+	"faq": "FAQ",
+	"blog": "Blog",
+	"contact": "Contacto",
+	"register": "Registrarse",
+	"loginPage": {
+		"title": "Iniciar sesión en tu cuenta",
+		"description": "Ingresa tus datos para acceder al sistema",
+		"email": "Correo electrónico",
+		"emailPlaceholder": "Tu correo electrónico",
+		"password": "Contraseña",
+		"passwordPlaceholder": "Tu contraseña",
+		"forgotPassword": "¿Olvidaste tu contraseña?",
+		"rememberMe": "Mantener sesión iniciada",
+		"submit": "Iniciar sesión",
+		"noAccount": "¿No tienes una cuenta?",
+		"register": "Regístrate",
+		"trustMessage": "Tus datos están seguros con nosotros",
+		"errors": {
+			"fillAllFields": "Por favor, completa todos los campos.",
+			"invalidCredentials": "Correo electrónico o contraseña incorrectos.",
+			"genericError": "Ocurrió un error al iniciar sesión."
+		}
+	},
+	"registerPage": {
+		"title": "Crear una cuenta",
+		"description": "Completa tus datos para registrarte",
+		"firstName": "Nombre",
+		"firstNamePlaceholder": "Tu nombre",
+		"lastName": "Apellido",
+		"lastNamePlaceholder": "Tu apellido",
+		"email": "Correo electrónico",
+		"emailPlaceholder": "Tu correo electrónico",
+		"password": "Contraseña",
+		"passwordPlaceholder": "Crea una contraseña",
+		"confirmPassword": "Confirmar Contraseña",
+		"confirmPasswordPlaceholder": "Confirma tu contraseña",
+		"agreeToTerms": "Acepto los",
+		"termsOfService": "Términos de Servicio",
+		"and": "y la",
+		"privacyPolicy": "Política de Privacidad",
+		"submit": "Crear Cuenta",
+		"haveAccount": "¿Ya tienes una cuenta?",
+		"login": "Iniciar sesión",
+		"trustMessage": "Tus datos están seguros con nosotros",
+		"errors": {
+			"fillAllFields": "Por favor, completa todos los campos.",
+			"passwordsDoNotMatch": "Las contraseñas no coinciden.",
+			"agreeToTerms": "Debes aceptar los términos y condiciones.",
+			"emailInUse": "Este correo electrónico ya está en uso.",
+			"genericError": "Error al registrarse. Por favor, inténtalo de nuevo."
+		}
+	},
+	"companyName": "146 CRM",
+	"allRightsReserved": "Todos los derechos reservados",
+	"home": "Inicio",
+	"passwordWarning": "No has configurado una contraseña. Configúrala en \"Configuración\" lo antes posible.",
+	"setPassword": "Establecer contraseña",
+	"allGroups": "Todos los grupos",
+	"searchPlaceholder": "Buscar o nuevos criterios de búsqueda",
+	"open": "Abrir",
+	"name": "Nombre",
+	"group": "Grupo",
+	"proxy": "Proxy",
+	"link": "Enlace",
+	"platform": "Plataforma",
+	"createNewProfile": "Crear Nuevo Perfil",
+	"profileName": "Nombre del Perfil",
+	"enterProfileName": "Ingrese el nombre del perfil",
+	"selectGroup": "Seleccione un grupo",
+	"work": "Trabajo",
+	"personal": "Personal",
+	"marketing": "Marketing",
+	"proxyOptional": "Proxy (opcional)",
+	"proxyPlaceholder": "IP:Puerto o dejar en blanco",
+	"siteLink": "Enlace del sitio",
+	"siteLinkPlaceholder": "https://ejemplo.com",
+	"cancel": "Cancelar",
+	"createProfile": "Crear Perfil",
+	"pageNotFound": "Página no encontrada",
+	"pageNotFoundDescription": "La página que estás buscando no existe.",
+	"hero": {
+		"title": "La Solución Más Avanzada de Protección de Huellas Digitales del Navegador",
+		"subtitle": "Gestione perfiles de navegador ilimitados con huellas digitales únicas para automatizar su flujo de trabajo y evitar problemas de detección.",
+		"downloadNow": "Descargar Ahora",
+		"learnMore": "Saber Más",
+		"trustedBy": "Confiado por más de 1.000.000 de usuarios en todo el mundo"
+	},
+	"featuresSection": {
+		"sectionTitle": "Características Potentes",
+		"sectionSubtitle": "Todas las herramientas que necesitas para gestionar tus perfiles de navegador con máxima privacidad y eficiencia",
+		"antiDetection": {
+			"title": "Navegador Anti-Detección",
+			"description": "Cree y gestione múltiples perfiles de navegador con huellas digitales únicas para evitar la detección."
+		},
+		"teamCollaboration": {
+			"title": "Colaboración en Equipo",
+			"description": "Comparta perfiles de navegador de forma segura con su equipo y gestione los permisos de acceso."
+		},
+		"automation": {
+			"title": "Automatización del Navegador",
+			"description": "Automatice tareas repetitivas con nuestras potentes herramientas de automatización y API."
+		},
+		"proxyIntegration": {
+			"title": "Integración con Proxy",
+			"description": "Integre fácilmente con sus proxies existentes o compre proxies directamente a través de nuestra plataforma."
+		},
+		"mobileSimulation": {
+			"title": "Simulación de Dispositivos Móviles",
+			"description": "Simule dispositivos móviles con huellas digitales precisas para pruebas y automatizaciones móviles."
+		},
+		"cookies": {
+			"title": "Cookies y Almacenamiento Local",
+			"description": "Almacene y gestione de forma segura cookies y datos de almacenamiento local en múltiples perfiles."
+		}
+	},
+	"testimonials": {
+		"sectionTitle": "Lo Que Dicen Nuestros Clientes",
+		"sectionSubtitle": "Miles de profesionales y empresas confían en AdsPower para proteger su identidad en línea",
+		"testimonial1": {
+			"text": "AdsPower ha transformado completamente la forma en que gestionamos nuestras campañas de marketing. El navegador anti-detección nos ha ahorrado innumerables horas y ha aumentado nuestras tasas de conversión en un 40%.",
+			"name": "Sarah Johnson",
+			"role": "Gerente de Marketing Digital"
+		},
+		"testimonial2": {
+			"text": "Como propietario de un negocio de comercio electrónico, necesito herramientas confiables para gestionar múltiples cuentas. AdsPower es la solución más robusta que he encontrado, con un excelente soporte al cliente.",
+			"name": "Michael Chen",
+			"role": "Emprendedor de E-commerce"
+		},
+		"testimonial3": {
+			"text": "Las funciones de colaboración en equipo han sido revolucionarias para nuestra agencia. Podemos compartir perfiles fácilmente y gestionar cuentas de clientes de forma segura sin complicaciones.",
+			"name": "Jessica Rodriguez",
+			"role": "Propietaria de Agencia"
+		}
+	},
+	"pricingSection": {
+		"sectionTitle": "Precios Simples y Transparentes",
+		"sectionSubtitle": "Elija el plan que se adapte a sus necesidades. Todos los planes incluyen una prueba gratuita de 14 días.",
+		"billing": {
+			"monthly": "Mensual",
+			"yearly": "Anual (Ahorre 20%)",
+			"perMonth": "mes",
+			"perYear": "año"
+		},
+		"popularBadge": "Más Popular",
+		"startNow": "Comenzar Ahora",
+		"plans": {
+			"individual": {
+				"name": "Individual",
+				"features": {
+					"profiles": "5 perfiles de navegador",
+					"basicProtection": "Protección básica de huellas digitales",
+					"cookieManagement": "Gestión de cookies",
+					"basicProxy": "Soporte básico de proxy",
+					"emailSupport": "Soporte por correo electrónico"
+				}
+			},
+			"team": {
+				"name": "Equipo",
+				"features": {
+					"profiles": "20 perfiles de navegador",
+					"advancedProtection": "Protección avanzada de huellas digitales",
+					"teamCollaboration": "Colaboración en equipo",
+					"apiAccess": "Acceso a API",
+					"customProxy": "Soporte personalizado de proxy",
+					"priorityEmail": "Soporte email prioritaria",
+					"automationTools": "Herramientas de automatización"
+				}
+			},
+			"enterprise": {
+				"name": "Empresa",
+				"features": {
+					"profiles": "Perfiles de navegador ilimitados",
+					"premiumProtection": "Protección premium de huellas digitales",
+					"advancedTeam": "Gestión avanzada de equipo",
+					"fullApi": "Acceso completo a API",
+					"advancedAutomation": "Automatización avanzada",
+					"customIntegrations": "Integraciones personalizadas",
+					"priority247": "Soporte prioritaria 24/7",
+					"dedicatedManager": "Gerente de cuenta dedicada"
+				}
+			}
+		}
+	},
+	"products": "Productos",
+	"productA": "Producto A",
+	"productB": "Producto B",
+	"productC": "Producto C",
+	"groupsPage": {
+		"group": "Grupo",
+		"includedProfiles": "Perfiles incluidos",
+		"observation": "Observación",
+		"creationTime": "Tiempo de creación",
+		"creator": "Creador",
+		"operation": "Operación",
+		"refresh": "Actualizar"
+	},
+	"profilesPage": {
+		"search": "Buscar...",
+		"open": "Abrir",
+		"rpa": "RPA",
+		"collapse": "Contraer",
+		"export": "Exportar",
+		"move": "Mover",
+		"share": "Compartir",
+		"delete": "Eliminar",
+		"createProfiles": "Crear 8 Perfiles",
+		"creating": "Creando...",
+		"name": "Nombre",
+		"tags": "Etiquetas",
+		"status": "Estado",
+		"creationDate": "Fecha de creación",
+		"action": "Acción",
+		"active": "ACTIVO",
+		"botLogin": "Login con Bot"
+	}
 }
