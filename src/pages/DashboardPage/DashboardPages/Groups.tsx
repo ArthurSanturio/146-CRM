@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import { auth, db } from "../../../../firebaseconfig";
@@ -30,16 +30,6 @@ interface Group {
 	createdAt: any;
 	allowedUsers: string[];
 	emails: string[];
-}
-
-interface MockGroup {
-	group: string;
-	included: number;
-	observation: string;
-	created: string;
-	creator: string;
-	emails: string[];
-	warning?: boolean;
 }
 
 interface UnifiedGroupData {
